@@ -10,4 +10,6 @@ The point of this is illustrative - it can be hard to see what information is ac
 
 Example of use:
 
-python depthimagetobasrelief.py --depthPath librealsenseexampleface.png  --output librealsenseexampleface-output.png --output-inverted librealsenseexampleface-invout.png --make_bas_relief --output-basrelief ^Cbrealsenseexampleface-basrelie
+python depthimagetobasrelief.py --depthPath librealsenseexampleface.png  --output librealsenseexampleface-output.png --output-inverted librealsenseexampleface-invout.png --make_bas_relief --output-basrelief librealsenseexampleface-basrelief
+
+![Example image](example-output.png "an example drawn from librealsense")
