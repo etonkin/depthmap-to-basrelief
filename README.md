@@ -1,6 +1,8 @@
 # depthmap-to-basrelief
 Using ETH-Zurich Hugging Face (Marigold) code, transform false-colour (hue-encoded) depth maps to in-principle-printable bas-reliefs
 
+Source of ETH-Zurich 'Depth to 3d Print' https://huggingface.co/spaces/prs-eth/depth-to-3d-print
+
 Other than the bas-relief extrusion, this is based on the Realsense depth image compression documentation: 
 https://dev.realsenseai.com/docs/depth-image-compression-by-colorization-for-intel-realsense-depth-cameras
 
