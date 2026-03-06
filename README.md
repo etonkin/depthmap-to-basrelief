@@ -6,7 +6,7 @@ Source of ETH-Zurich 'Depth to 3d Print' https://huggingface.co/spaces/prs-eth/d
 Other than the bas-relief extrusion, this is based on the Realsense depth image compression documentation: 
 https://dev.realsenseai.com/docs/depth-image-compression-by-colorization-for-intel-realsense-depth-cameras
 
-and on the C code for depth image recovery from colorized depth images given there. It's slightly arbitrarily set in terms of greyscale image (essentially, it's what I thought looked good in a print), so that may be something I'll look at later. 
+and on the C code for depth image recovery from colorized depth images given there. It's slightly arbitrarily set in terms of greyscale image (essentially, it's what I thought looked good in a print), so that may be something I'll look at later. Currently it only knows how to convert one colourisation (it assumes the hue colorisation described in the realsense link) which it converts to uint16 greyscale and inverse greyscale, as this is what the ETH-Zurich extrusion code wants.
 
 The point of this is illustrative - it can be hard to see what information is actually captured in a colorised depth image and that's not ideal in terms of accessibility/consent. 
 
